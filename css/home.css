@@ -30,29 +30,29 @@ body{
     display: flex;
     flex-direction: row;
 }
-#container-1 span:first-child{
-    background-color: black;
-    width: 25%;
-    
-}
+
     #container-1 span:first-child{
         background-color: black;
         width: 25%;
+        height: 400px;
         
     }
         #container-1 span:nth-child(2){
             background-color: rgb(15, 234, 45);
             width: 25%;
+            height: 400px;
             
         }
             #container-1 span:nth-child(3){
                 background-color: rgb(213, 227, 10);
                 width: 25%;
+                height: 400px;
                 
             }
                 #container-1 span:last-child{
                     background-color: rgb(224, 9, 170);
                     width: 25%;
+                    height: 400px;
                 
             }
 #container-2{
@@ -66,4 +66,54 @@ body{
 #container-4{
     background-color: rgb(238, 25, 43);
     height: 50px;
+}
+
+#posts{
+    background-color: bisque;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+#money{
+    background-color: blue;
+    width: 50%;
+}
+#jobs{
+    background-color: rgb(238, 34, 11);
+    width: 50%;
+}
+#container-2{
+    background-color: lawngreen;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+    #container-2 span:first-child{
+        background-color: black;
+        width: 25%;
+        height: 100px;
+        
+    }
+        #container-2 span:nth-child(2){
+            background-color: rgb(15, 234, 45);
+            width: 25%;
+            height: 100px;
+            
+        }
+            #container-2 span:nth-child(3){
+                background-color: rgb(213, 227, 10);
+                width: 25%;
+                height: 100px;
+                
+            }
+                #container-2 span:last-child{
+                    background-color: rgb(224, 9, 170);
+                    width: 25%;
+                    height: 100px;
+                
+            }
+#footer{
+    background-color: darkorange;
+    height: 200px;
 }
