@@ -7,27 +7,44 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
 
     <div id="nav">
         <div id="left">
-            <span><img src="" alt=""></span>
-            <span>siyalu</span>
+            <span><img src="img/logo.png" alt=""></span>
+            <span>All ads</span>
             <span>
-                <button>English</button>
-                <button>Tamil</button>
+                <button id="nav-btn">English</button>
+                <button id="nav-btn">Tamil</button>
             </span>
         </div>
 
         <div id="right">
-            <span>chat</span>
-            <span>login</span>
-            <span><button>obage add</button></span>
+            <span>
+                <i class="bi bi-wechat"></i>
+                Chat
+            </span>
+            <span>
+                <i class="bi bi-person-fill"></i>
+                Login
+            </span>
+            <span><button id="nav-post-btn">POST YOUR AD</button></span>
         </div>
     </div>
-    <div id="location"></div>
-    <div id="search-bar"></div>
+    <div id="location">
+        <button>
+            <i class="bi bi-geo-alt-fill"></i>
+            All of Sri Lanka</button>
+    </div>
+    <div id="search-bar">
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="What are you looking for?">
+            <i class="bi bi-search" id="search-icon"></i>
+        </div>
+    </div>
+    
     <div id="animation-cover"></div>
     <div id="category">
         <div id="container-1">
